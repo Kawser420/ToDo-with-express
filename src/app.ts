@@ -9,7 +9,7 @@ app.use(express.json());
 const filepath = path.join(__dirname, "../db/todo.json");
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("how to become a real world full sta international and to be happy");
+  res.send("Welcome To Express Tour");
 });
 
 app.get("/todos", (req: Request, res: Response) => {
