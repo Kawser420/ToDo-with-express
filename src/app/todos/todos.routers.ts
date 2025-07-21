@@ -44,7 +44,7 @@ todosRouter.get("/:id", async (req: Request, res: Response) => {
   res.json(todo);
 });
 
-// Update todo
+// Update ToDo
 todosRouter.put("/update-todo/:id", async (req: Request, res: Response) => {
   const id = req.params.id;
   const db = await client.db("todosDB");
