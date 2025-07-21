@@ -60,7 +60,7 @@ todosRouter.put("/update-todo/:id", async (req: Request, res: Response) => {
   res.json(updatedToDo);
 });
 
-//DELETE
+// DELETE
 todosRouter.delete("/delete-todo/:id", async (req: Request, res: Response) => {
   const id = req.params.id;
   const db = await client.db("todosDB");
