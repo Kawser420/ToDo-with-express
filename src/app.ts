@@ -4,6 +4,7 @@ const app: Application = express();
 
 app.use(express.json());
 
+// Router
 const userRouter = express.Router();
 
 app.use("/todos", todosRouter);
