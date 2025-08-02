@@ -62,7 +62,7 @@ export default app;
 
 /**
  * Basic File structure
- * Server - Server handling like - starting, closing error handling of server. only related to server.
+ * Server - Server handling like - starting, closing error handling of server. only related to server
  * App file - Routing handle, middleware, route related error
  * App folder - App business logic handling like create read update delete, database related works
  */
